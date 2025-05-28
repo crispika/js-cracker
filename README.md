@@ -58,18 +58,8 @@ pnpm install
 
 3. 运行测试：
 
-```bash
-# 运行所有测试
-pnpm test
+```
 
-# 只运行用户代码的测试
-TEST_SOLUTION=my pnpm test
-
-# 只运行标准答案的测试
-TEST_SOLUTION=standard pnpm test
-
-# 以监听模式运行测试
-pnpm test:watch
 ```
 
 ## 如何练习
