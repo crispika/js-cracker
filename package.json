@@ -1,0 +1,29 @@
+{
+  "name": "js-cracker",
+  "version": "1.0.0",
+  "description": "JavaScript 面试编程题练习项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [
+    "javascript",
+    "interview",
+    "coding"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=8"
+  },
+  "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf"
+}
