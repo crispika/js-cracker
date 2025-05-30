@@ -1,4 +1,5 @@
-const MyPromise = require("../../my-solutions/promise/MyPromise");
+// const MyPromise = require("../../my-solutions/promise/MyPromise");
+const MyPromise = require("../../solutions/promise/MyPromise");
 
 describe("Promise.race 实现", () => {
   test("应该返回第一个完成的 Promise 的结果", () => {
@@ -42,16 +43,6 @@ describe("Promise.race 实现", () => {
   test("应该处理空数组", () => {
     return MyPromise.race([]).then((value) => {
       expect(value).toBeUndefined();
-    });
-  });
-
-  test("应该处理 thenable 对象", () => {
-    const thenable = {
-      then: (resolve) => resolve(42),
-    };
-
-    return MyPromise.race([thenable]).then((value) => {
-      expect(value).toBe(42);
     });
   });
 

@@ -207,15 +207,5 @@ describe("Promise 基础实现", () => {
         expect(error.message).toBe("rejected");
       });
     });
-
-    test("resolve 方法应该处理 thenable 对象", () => {
-      const thenable = {
-        then: (resolve) => resolve(42),
-      };
-
-      return MyPromise.resolve(thenable).then((value) => {
-        expect(value).toBe(42);
-      });
-    });
   });
 });

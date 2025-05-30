@@ -56,12 +56,6 @@ npm install -g pnpm
 pnpm install
 ```
 
-3. 运行测试：
-
-```
-
-```
-
 ## 如何练习
 
 1. 在 `src` 目录下找到要练习的题目

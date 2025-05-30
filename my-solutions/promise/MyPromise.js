@@ -32,6 +32,14 @@ class MyPromise {
   static reject(reason) {
     // TODO: 在这里实现你的代码
   }
+
+  static all(promises = []) {
+    // TODO: 在这里实现你的代码
+  }
+
+  static race(promises = []) {
+    // TODO: 在这里实现你的代码
+  }
 }
 
 module.exports = MyPromise;
